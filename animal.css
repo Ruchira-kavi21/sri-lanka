@@ -6,7 +6,7 @@
 .slider-img {
     width: 100%;
     height: 90vh;
-    background-image: url("/images/animal1.jpg");
+    background-image: url("animal1.jpg");
     background-size: 100% 100%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     animation: changeImage 20s linear infinite;
@@ -14,19 +14,19 @@
 /* Define keyframes for the sliding animation */
 @keyframes changeImage {
     0% {
-        background-image: url("/images/animal1.jpg");
+        background-image: url("animal1.jpg");
     }
     25% {
-        background-image: url("/images/animal2.jpg");
+        background-image: url("animal2.jpg");
     }
     50% {
-        background-image: url("/images/animal3.jpg");
+        background-image: url("animal3.jpg");
     }
     75% {
-        background-image: url("/images/animal4.jpg");
+        background-image: url("animal4.jpg");
     }
     100% {
-        background-image: url("/images/animal5.jpg");
+        background-image: url("animal5.jpg");
     }
 }
 /* Define keyframes for the sliding animation */
